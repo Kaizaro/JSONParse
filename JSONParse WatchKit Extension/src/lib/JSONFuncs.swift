@@ -19,3 +19,13 @@ func readLocalJSONFile(forName name: String) -> Data? {
     }
     return nil
 }
+
+func parse(jsonData: Data) -> sampleRecord? {
+    do {
+        let decodedData = try JSONDecoder().decode(sampleRecord.self, from: jsonData)
+        return decodedData
+    } catch {
+        print("error: \(error)")
+    }
+    return nil
+}

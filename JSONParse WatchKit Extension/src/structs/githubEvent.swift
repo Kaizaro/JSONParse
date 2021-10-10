@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct GithubEvent {
+struct GithubEvents: Codable {[GithubEvent]}
+
+struct GithubEvent: Codable {
     var id: String;
     var type: String;
     var actor: GithubEventActor;
@@ -15,7 +17,7 @@ struct GithubEvent {
     var payload: GithubEventPayload;
 }
 
-struct GithubEventActor {
+struct GithubEventActor: Codable {
     var id: Int;
     var login: String;
     var display_login: String;
@@ -24,13 +26,13 @@ struct GithubEventActor {
     var avatar_url: String;
 }
 
-struct GithubEventRepo {
+struct GithubEventRepo: Codable {
     var id: Int;
     var name: String;
     var url: String;
 }
 
-struct GithubEventPayload {
+struct GithubEventPayload: Codable {
     var push_id: Int;
     var size: Int;
     var distinct_size: Int;
@@ -40,7 +42,7 @@ struct GithubEventPayload {
     var commits: [GithubEventPayloadCommit];
 }
 
-struct GithubEventPayloadCommit {
+struct GithubEventPayloadCommit: Codable {
     var sha: String;
     var author: GithubEventPayloadCommitAuthor;
     var message: String;
@@ -48,7 +50,7 @@ struct GithubEventPayloadCommit {
     var url: String;
 }
 
-struct GithubEventPayloadCommitAuthor {
+struct GithubEventPayloadCommitAuthor: Codable {
     var email: String;
     var name: String;
 }
