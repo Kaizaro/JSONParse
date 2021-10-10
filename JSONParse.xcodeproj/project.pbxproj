@@ -19,6 +19,7 @@
 		07D656422713025800B627D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D656412713025800B627D0 /* Preview Assets.xcassets */; };
 		07D65653271305AD00B627D0 /* githubEventsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 07D65652271305AD00B627D0 /* githubEventsJSON.json */; };
 		07D65657271306A100B627D0 /* githubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D65656271306A100B627D0 /* githubEvent.swift */; };
+		07D6565A271312F600B627D0 /* JSONFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D65659271312F600B627D0 /* JSONFuncs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		07D656442713025800B627D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		07D65652271305AD00B627D0 /* githubEventsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = githubEventsJSON.json; path = assets/githubEventsJSON.json; sourceTree = "<group>"; };
 		07D65656271306A100B627D0 /* githubEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubEvent.swift; sourceTree = "<group>"; };
+		07D65659271312F600B627D0 /* JSONFuncs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONFuncs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 		07D656542713066600B627D0 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				07D65658271312DF00B627D0 /* lib */,
 				07D656552713067800B627D0 /* structs */,
 			);
 			path = src;
@@ -159,6 +162,14 @@
 				07D65656271306A100B627D0 /* githubEvent.swift */,
 			);
 			path = structs;
+			sourceTree = "<group>";
+		};
+		07D65658271312DF00B627D0 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				07D65659271312F600B627D0 /* JSONFuncs.swift */,
+			);
+			path = lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D656392713025700B627D0 /* NotificationController.swift in Sources */,
+				07D6565A271312F600B627D0 /* JSONFuncs.swift in Sources */,
 				07D65657271306A100B627D0 /* githubEvent.swift in Sources */,
 				07D656372713025700B627D0 /* ContentView.swift in Sources */,
 				07D6563D2713025700B627D0 /* ComplicationController.swift in Sources */,
