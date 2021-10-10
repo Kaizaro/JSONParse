@@ -7,7 +7,9 @@
 
 import Foundation
 
-struct GithubEvents: Codable {[GithubEvent]}
+struct GithubEvents: Codable {
+    var events: [GithubEvent];
+}
 
 struct GithubEvent: Codable {
     var id: String;
