@@ -17,6 +17,8 @@
 		07D6563D2713025700B627D0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6563C2713025700B627D0 /* ComplicationController.swift */; };
 		07D6563F2713025800B627D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D6563E2713025800B627D0 /* Assets.xcassets */; };
 		07D656422713025800B627D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D656412713025800B627D0 /* Preview Assets.xcassets */; };
+		07D65653271305AD00B627D0 /* githubEventsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 07D65652271305AD00B627D0 /* githubEventsJSON.json */; };
+		07D65657271306A100B627D0 /* githubEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D65656271306A100B627D0 /* githubEvent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,8 @@
 		07D656412713025800B627D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		07D656432713025800B627D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07D656442713025800B627D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		07D65652271305AD00B627D0 /* githubEventsJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = githubEventsJSON.json; path = assets/githubEventsJSON.json; sourceTree = "<group>"; };
+		07D65656271306A100B627D0 /* githubEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = githubEvent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		07D656192713025600B627D0 = {
 			isa = PBXGroup;
 			children = (
+				07D65652271305AD00B627D0 /* githubEventsJSON.json */,
 				07D656282713025600B627D0 /* JSONParse WatchKit App */,
 				07D656332713025700B627D0 /* JSONParse WatchKit Extension */,
 				07D656212713025600B627D0 /* Products */,
@@ -118,6 +123,7 @@
 		07D656332713025700B627D0 /* JSONParse WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				07D656542713066600B627D0 /* src */,
 				07D656342713025700B627D0 /* JSONParseApp.swift */,
 				07D656362713025700B627D0 /* ContentView.swift */,
 				07D656382713025700B627D0 /* NotificationController.swift */,
@@ -137,6 +143,22 @@
 				07D656412713025800B627D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07D656542713066600B627D0 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				07D656552713067800B627D0 /* structs */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		07D656552713067800B627D0 /* structs */ = {
+			isa = PBXGroup;
+			children = (
+				07D65656271306A100B627D0 /* githubEvent.swift */,
+			);
+			path = structs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D65653271305AD00B627D0 /* githubEventsJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07D656392713025700B627D0 /* NotificationController.swift in Sources */,
+				07D65657271306A100B627D0 /* githubEvent.swift in Sources */,
 				07D656372713025700B627D0 /* ContentView.swift in Sources */,
 				07D6563D2713025700B627D0 /* ComplicationController.swift in Sources */,
 				07D656352713025700B627D0 /* JSONParseApp.swift in Sources */,
@@ -524,7 +548,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3N9HQ5L43;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -537,7 +561,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = B3N9HQ5L43;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
