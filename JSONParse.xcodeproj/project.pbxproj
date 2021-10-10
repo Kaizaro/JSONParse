@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D656252713025600B627D0 /* JSONParse WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07D656242713025600B627D0 /* JSONParse WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07D6562A2713025700B627D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D656292713025700B627D0 /* Assets.xcassets */; };
+		07D656302713025700B627D0 /* JSONParse WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 07D6562F2713025700B627D0 /* JSONParse WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07D656352713025700B627D0 /* JSONParseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D656342713025700B627D0 /* JSONParseApp.swift */; };
+		07D656372713025700B627D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D656362713025700B627D0 /* ContentView.swift */; };
+		07D656392713025700B627D0 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D656382713025700B627D0 /* NotificationController.swift */; };
+		07D6563B2713025700B627D0 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6563A2713025700B627D0 /* NotificationView.swift */; };
+		07D6563D2713025700B627D0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D6563C2713025700B627D0 /* ComplicationController.swift */; };
+		07D6563F2713025800B627D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D6563E2713025800B627D0 /* Assets.xcassets */; };
+		07D656422713025800B627D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D656412713025800B627D0 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D656262713025600B627D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D6561A2713025600B627D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D656232713025600B627D0;
+			remoteInfo = "JSONParse WatchKit App";
+		};
+		07D656312713025700B627D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D6561A2713025600B627D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D6562E2713025700B627D0;
+			remoteInfo = "JSONParse WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07D6564A2713025800B627D0 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				07D656302713025700B627D0 /* JSONParse WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D6564E2713025800B627D0 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				07D656252713025600B627D0 /* JSONParse WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07D656202713025600B627D0 /* JSONParse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONParse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D656242713025600B627D0 /* JSONParse WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSONParse WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D656292713025700B627D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D6562F2713025700B627D0 /* JSONParse WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JSONParse WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D656342713025700B627D0 /* JSONParseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParseApp.swift; sourceTree = "<group>"; };
+		07D656362713025700B627D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07D656382713025700B627D0 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		07D6563A2713025700B627D0 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		07D6563C2713025700B627D0 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		07D6563E2713025800B627D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D656412713025800B627D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07D656432713025800B627D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D656442713025800B627D0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D6562C2713025700B627D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D656192713025600B627D0 = {
+			isa = PBXGroup;
+			children = (
+				07D656282713025600B627D0 /* JSONParse WatchKit App */,
+				07D656332713025700B627D0 /* JSONParse WatchKit Extension */,
+				07D656212713025600B627D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D656212713025600B627D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D656202713025600B627D0 /* JSONParse.app */,
+				07D656242713025600B627D0 /* JSONParse WatchKit App.app */,
+				07D6562F2713025700B627D0 /* JSONParse WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D656282713025600B627D0 /* JSONParse WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				07D656292713025700B627D0 /* Assets.xcassets */,
+			);
+			path = "JSONParse WatchKit App";
+			sourceTree = "<group>";
+		};
+		07D656332713025700B627D0 /* JSONParse WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07D656342713025700B627D0 /* JSONParseApp.swift */,
+				07D656362713025700B627D0 /* ContentView.swift */,
+				07D656382713025700B627D0 /* NotificationController.swift */,
+				07D6563A2713025700B627D0 /* NotificationView.swift */,
+				07D6563C2713025700B627D0 /* ComplicationController.swift */,
+				07D6563E2713025800B627D0 /* Assets.xcassets */,
+				07D656432713025800B627D0 /* Info.plist */,
+				07D656442713025800B627D0 /* PushNotificationPayload.apns */,
+				07D656402713025800B627D0 /* Preview Content */,
+			);
+			path = "JSONParse WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		07D656402713025800B627D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07D656412713025800B627D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D6561F2713025600B627D0 /* JSONParse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D6564F2713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse" */;
+			buildPhases = (
+				07D6561E2713025600B627D0 /* Resources */,
+				07D6564E2713025800B627D0 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D656272713025600B627D0 /* PBXTargetDependency */,
+			);
+			name = JSONParse;
+			productName = JSONParse;
+			productReference = 07D656202713025600B627D0 /* JSONParse.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		07D656232713025600B627D0 /* JSONParse WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D6564B2713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse WatchKit App" */;
+			buildPhases = (
+				07D656222713025600B627D0 /* Resources */,
+				07D6564A2713025800B627D0 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D656322713025700B627D0 /* PBXTargetDependency */,
+			);
+			name = "JSONParse WatchKit App";
+			productName = "JSONParse WatchKit App";
+			productReference = 07D656242713025600B627D0 /* JSONParse WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		07D6562E2713025700B627D0 /* JSONParse WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D656472713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse WatchKit Extension" */;
+			buildPhases = (
+				07D6562B2713025700B627D0 /* Sources */,
+				07D6562C2713025700B627D0 /* Frameworks */,
+				07D6562D2713025700B627D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JSONParse WatchKit Extension";
+			productName = "JSONParse WatchKit Extension";
+			productReference = 07D6562F2713025700B627D0 /* JSONParse WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D6561A2713025600B627D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					07D6561F2713025600B627D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					07D656232713025600B627D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					07D6562E2713025700B627D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 07D6561D2713025600B627D0 /* Build configuration list for PBXProject "JSONParse" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D656192713025600B627D0;
+			productRefGroup = 07D656212713025600B627D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D6561F2713025600B627D0 /* JSONParse */,
+				07D656232713025600B627D0 /* JSONParse WatchKit App */,
+				07D6562E2713025700B627D0 /* JSONParse WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D6561E2713025600B627D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D656222713025600B627D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D6562A2713025700B627D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D6562D2713025700B627D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D656422713025800B627D0 /* Preview Assets.xcassets in Resources */,
+				07D6563F2713025800B627D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D6562B2713025700B627D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D656392713025700B627D0 /* NotificationController.swift in Sources */,
+				07D656372713025700B627D0 /* ContentView.swift in Sources */,
+				07D6563D2713025700B627D0 /* ComplicationController.swift in Sources */,
+				07D656352713025700B627D0 /* JSONParseApp.swift in Sources */,
+				07D6563B2713025700B627D0 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D656272713025600B627D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D656232713025600B627D0 /* JSONParse WatchKit App */;
+			targetProxy = 07D656262713025600B627D0 /* PBXContainerItemProxy */;
+		};
+		07D656322713025700B627D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D6562E2713025700B627D0 /* JSONParse WatchKit Extension */;
+			targetProxy = 07D656312713025700B627D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07D656452713025800B627D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07D656462713025800B627D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D656482713025800B627D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JSONParse WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JSONParse WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JSONParse WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		07D656492713025800B627D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JSONParse WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "JSONParse WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "JSONParse WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		07D6564C2713025800B627D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = JSONParse_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "JSONParse WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		07D6564D2713025800B627D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = JSONParse_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "JSONParse WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		07D656502713025800B627D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07D656512713025800B627D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3N9HQ5L43;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.JSONParse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D6561D2713025600B627D0 /* Build configuration list for PBXProject "JSONParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D656452713025800B627D0 /* Debug */,
+				07D656462713025800B627D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D656472713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D656482713025800B627D0 /* Debug */,
+				07D656492713025800B627D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D6564B2713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D6564C2713025800B627D0 /* Debug */,
+				07D6564D2713025800B627D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D6564F2713025800B627D0 /* Build configuration list for PBXNativeTarget "JSONParse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D656502713025800B627D0 /* Debug */,
+				07D656512713025800B627D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D6561A2713025600B627D0 /* Project object */;
+}
